@@ -303,9 +303,39 @@ label {
 }
 
 #roadmap {
-  background-color: $main-color;
+  background-image: url("/images/footerImg.png"), linear-gradient(#392178, #6a32dc, #392178);
+  background-repeat: no-repeat;
+  background-position: bottom;
   font-family: montReg;
   color: white;
+  padding-bottom: 25vh;
+}
+
+#story {
+  background-image: url("/images/footerImg.png"), linear-gradient( #6a32dc, #392178);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  font-family: montReg;
+  color: white;
+  padding-bottom: 25vh;
+}
+
+#holder-benefits {
+  background-image: url("/images/footerImg.png"), linear-gradient(#392178, #6a32dc, #392178);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  font-family: montReg;
+  color: white;
+  padding-bottom: 25vh;
+}
+
+#team {
+  background-image: url("/images/footerImg.png"), linear-gradient(#392178, #6a32dc);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  font-family: montReg;
+  color: white;
+  padding-bottom: 25vh;
 }
 
 .roadmap-img {
@@ -405,9 +435,9 @@ footer{
 }
 }
 
-// #hero{
-//   min-height: 100vh;
-// }
+#hero{  
+  border-bottom: 8px solid $brand-pink;
+}
 
 .hero-image {
   min-height: 40vh;
@@ -959,42 +989,27 @@ button{
   }
 }
 
-.home-banner {
-  background: url('/images/banners/home.png') no-repeat center top;
+
+.team-banner {
+  background: url('/images/banners/beachParty.png');
+  height: 90vh!important;
+  background-repeat: no-repeat;
   background-size: cover;
-  width: 100vw!important;
-  min-width: 100vw!important;
-  margin-bottom: 20px;
-  height: 100%;
-  min-height: 100vh;
-}
-
-
-@media only screen and (max-width: 750px) {
-  .home-banner {
-    background: url('/images/banners/homeMobile.png');
-    height: 30vh!important;
-  }
   }
 
+
+  @media only screen and (max-width: 750px) {
   .team-banner {
-    background: url('/images/banners/roadmapBanner.png');
-    height: 60vh!important;
-    margin-bottom: 20px;
-    }
-  
-  
-    @media only screen and (max-width: 750px) {
-    .team-banner {
-    background: url('/images/banners/roadmapMobile.jpg');
-    height: 30vh!important;
-    }
-    }
+  background: url('/images/banners/teamMobile.png');
+  height: 30vh!important;
+  }
+  }
 
   .roadmap-banner {
-  background: url('/images/banners/roadmapBanner.png');
-  height: 60vh!important;
-  margin-bottom: 20px;
+  background: url('/images/banners/snowParty.png');
+  height: 90vh!important;
+  background-repeat: no-repeat;
+  background-size: cover;
   }
 
 
@@ -1006,9 +1021,10 @@ button{
   }
 
   .story-banner {
-  background: url('/images/banners/storyBanner.png');
-  height: 60vh!important;
-  margin-bottom: 20px;
+  background: url('/images/banners/cigarLounge.png');
+  height: 90vh!important;
+  background-repeat: no-repeat;
+  background-size: cover;
   }
 
 
@@ -1020,9 +1036,10 @@ button{
   }
 
   .holder-banner {
-    background: url('/images/banners/hbBanner.png');
-    height: 60vh!important;
-    margin-bottom: 20px;
+    background: url('/images/banners/yachtParty.png');
+    height: 90vh!important;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
 

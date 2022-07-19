@@ -52,6 +52,7 @@ export default function Story() {
       </Head>
       
       <Hero classname='story-banner'/>
+      <div id='story'>
       <div className="container">
           <div className="row align-items-center h-100 justify-content-center">
             <div className="col" style={{maxWidth:"900px"}}>
@@ -90,6 +91,7 @@ export default function Story() {
 
             </div>
           </div>
+        </div>
         </div>
       
     </div>

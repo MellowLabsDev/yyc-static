@@ -57,7 +57,7 @@ export default function HolderBenefits() {
       
       
       <Hero classname='holder-banner'/>
-
+      <div id='holder-benefits'>
         <div className="container">
           <div className="row align-items-center h-100 justify-content-center">
             <div className="col" style={{maxWidth:"900px", textAlign:'center'}}>
@@ -72,6 +72,7 @@ export default function HolderBenefits() {
 
             </div>
           </div>
+        </div>
         </div>
 
       
