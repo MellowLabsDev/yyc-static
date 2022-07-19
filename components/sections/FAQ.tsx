@@ -75,7 +75,7 @@ function FAQ() {
           <div className="row">
             <div className="col-md-6 offset-md-3">
             {faqs.map(faq => (
-              <div className='faq-item'>
+              <div key={faq.id} className='faq-item'>
                 <h5 className='faq-title bolder'>{faq.question}</h5>
                 <p>{faq.answer}</p>
               </div>
