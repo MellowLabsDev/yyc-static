@@ -19,7 +19,7 @@ function NavComponent() {
                       style={{maxWidth:"40vw", maxHeight:"80px"}}
                     />
                     {/* {' '}
-                      Yeti Yacht Club */}
+                      Yeti Secret Society */}
                     </Navbar.Brand>  
                     <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-false`} />
                     <Navbar.Offcanvas
@@ -59,7 +59,7 @@ function NavComponent() {
               height="30"
               className="d-inline-block align-top"
             />{' '}
-              Yeti Yacht Club</Navbar.Brand>           
+              Yeti Secret Society</Navbar.Brand>           
             
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">

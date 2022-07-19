@@ -33,19 +33,19 @@ export default function Story() {
     <div className="min-h-screen h-full w-full flex flex-col bg-brand-light overflow-hidden">
       <Head>
         <title>YYC | Story</title>
-        <meta name="description" content="Join the Yeti Yacht Club today!" />
+        <meta name="description" content="Join the Yeti Secret Society today!" />
         <link rel="icon" href="/favicon.png" />
 
         <meta property="og:type" content="website"/>
         <meta property="og:url" content="https://yeticlub.io/"/>
         <meta property="og:title" content="YYC | Story"/>
-        <meta property="og:description" content="Join the Yeti Yacht Club today!"/>       
+        <meta property="og:description" content="Join the Yeti Secret Society today!"/>       
         <meta property="og:image" content="https://yeticlub.io/images/metaImg.jpg"/>
 
         <meta property="twitter:card" content="summary_large_image"/>
         <meta property="twitter:url" content="https://yeticlub.io/"/>
         <meta property="twitter:title" content="YYC | Story"/>
-        <meta property="twitter:description" content="Join the Yeti Yacht Club today!"/>
+        <meta property="twitter:description" content="Join the Yeti Secret Society today!"/>
         <meta property="twitter:image" content="https://yeticlub.io/images/metaImg.jpg"/>      
         
         
@@ -86,7 +86,7 @@ export default function Story() {
               <br/>
               </p>
               <p className="lead">
-                It was on this very day that the Yeti Yacht Club was born.
+                It was on this very day that the Yeti Secret Society was born.
               </p>
 
             </div>

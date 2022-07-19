@@ -37,19 +37,19 @@ export default function HolderBenefits() {
     <div className="min-h-screen h-full w-full flex flex-col bg-brand-light overflow-hidden">
       <Head>
         <title>YYC | Holder Benefits</title>
-        <meta name="description" content="Join the Yeti Yacht Club today!" />
+        <meta name="description" content="Join the Yeti Secret Society today!" />
         <link rel="icon" href="/favicon.png" />
 
         <meta property="og:type" content="website"/>
         <meta property="og:url" content="https://yeticlub.io/"/>
         <meta property="og:title" content="YYC | Tokenomics"/>
-        <meta property="og:description" content="Join the Yeti Yacht Club today!"/>       
+        <meta property="og:description" content="Join the Yeti Secret Society today!"/>       
         <meta property="og:image" content="https://yeticlub.io/images/metaImg.jpg"/>
 
         <meta property="twitter:card" content="summary_large_image"/>
         <meta property="twitter:url" content="https://yeticlub.io/"/>
         <meta property="twitter:title" content="YYC | Tokenomics"/>
-        <meta property="twitter:description" content="Join the Yeti Yacht Club today!"/>
+        <meta property="twitter:description" content="Join the Yeti Secret Society today!"/>
         <meta property="twitter:image" content="https://yeticlub.io/images/metaImg.jpg"/>      
         
         
@@ -63,9 +63,9 @@ export default function HolderBenefits() {
             <div className="col" style={{maxWidth:"900px", textAlign:'center'}}>
               <h1 className="display-3 bubblegum" style={{textAlign:'center'}}>Holder Benefits</h1>
               <p className="lead">
-              <span className="bold-list">Yeti Yacht Club is looking to enhance our investor's lifestyle by providing only the most luxurious amenities. As with all aspects of this project, we are looking to deliver a first-class experience and value to our community.
+              <span className="bold-list">Yeti Secret Society is looking to enhance our investor's lifestyle by providing only the most luxurious amenities. As with all aspects of this project, we are looking to deliver a first-class experience and value to our community.
               </span><br/><br/>
-              <span className="bold-list">Yeti Yacht Club</span> - The Most Exclusive NFT club on Earth
+              <span className="bold-list">Yeti Secret Society</span> - The Most Exclusive NFT club on Earth
               <br/><br/>
               </p>
               <img src='/images/yetiHolderB.png' style={{maxWidth:'90vw'}}  data-aos="fade-up"></img>

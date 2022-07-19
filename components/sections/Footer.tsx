@@ -19,7 +19,7 @@ function Footer() {
               {/* <div className='email-form nav justify-content-center'>
                 <MailchimpSubscribe url='https://gmail.us12.list-manage.com/subscribe/post?u=f0ff4ce31af65dd7bea0e2d2b&id=f8b4e0b3cb'/>     
               </div> */}
-              <p className="text-center">© Copyright | Yeti Yacht Club {new Date().getFullYear()} | All Rights Reserved</p>
+              <p className="text-center">© Copyright | Yeti Secret Society {new Date().getFullYear()} | All Rights Reserved</p>
             </footer>
           </div>
         </>

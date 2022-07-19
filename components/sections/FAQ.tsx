@@ -4,7 +4,7 @@ import AOS from 'aos';
 
 const faqs = [
   {id:0,
-  question : "What is Yeti Yacht Club?",
+  question : "What is Yeti Secret Society?",
   answer : "The project  is a collection of 10,000 uniquely generated NFTs stored in the Ethereum chain. ",
   eventKey :"0",
   }, 
@@ -47,11 +47,11 @@ const faqs = [
   }, 
   {id:8,
   question : "Are you affiliated with any other  NFT project?",
-  answer : "Yeti Yacht Club is a unique forward-thinking project, and currently has no affiliation with any other NFT project.",
+  answer : "Yeti Secret Society is a unique forward-thinking project, and currently has no affiliation with any other NFT project.",
   eventKey :"8",
   }, 
   {id:9,
-  question : "Which marketplaces will Yeti Yacht Club be listed on?",
+  question : "Which marketplaces will Yeti Secret Society be listed on?",
   answer : "-OpenSea. -LooksRare. -MemeNFT.",
   eventKey :"9",
   }, 
