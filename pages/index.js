@@ -3,8 +3,10 @@ import Head from 'next/head'
 import About from '../components/sections/About.tsx'
 import FAQ from '../components/sections/FAQ.tsx'
 import Team from '../components/sections/Team.tsx'
-import Hero from '../components/sections/Hero.tsx'
+import LandingHero from '../components/sections/LandingHero.tsx'
 import Gallery from '../components/sections/Gallery.tsx'
+import HolderBenefitsSection from '../components/sections/hb.tsx'
+import CompRm from '../components/sections/CompRm.tsx'
 
 export default function Home() { 
   return (
@@ -28,8 +30,11 @@ export default function Home() {
         
         
       </Head>
-        <Hero classname='home-banner'/>
+      <LandingHero/>
+      <HolderBenefitsSection/>
       <About/>
+      <CompRm/>
+      <Team/>
       {/* <Gallery/> */}
       <FAQ/>
       

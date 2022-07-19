@@ -1,0 +1,16 @@
+<svg id="HldBen_Dimd-Icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="133" height="133" viewBox="0 0 133 133">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1747" data-name="Rectangle 1747" width="133" height="133" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_4715" data-name="Group 4715" clip-path="url(#clip-path)">
+    <path id="Path_1029" data-name="Path 1029" d="M66.5,6.049A60.451,60.451,0,1,1,6.049,66.5,60.519,60.519,0,0,1,66.5,6.049M66.5,0A66.5,66.5,0,1,0,133,66.5,66.5,66.5,0,0,0,66.5,0" fill="#6b32de"/>
+    <path id="Path_1030" data-name="Path 1030" d="M157.548,177.868H138.541l19.006,35.951,19.006-35.951Z" transform="translate(-91.048 -116.893)" fill="#6b32de"/>
+    <path id="Path_1031" data-name="Path 1031" d="M104.543,213.819,66.4,177.868H85.408Z" transform="translate(-43.638 -116.893)" fill="#6b32de"/>
+    <path id="Path_1032" data-name="Path 1032" d="M210.3,213.819l38.142-35.951H229.439Z" transform="translate(-138.209 -116.893)" fill="#6b32de"/>
+    <path id="Path_1033" data-name="Path 1033" d="M86.2,105.229,66.4,125.151H85.408l10.957-19.922Z" transform="translate(-43.638 -69.155)" fill="#6b32de"/>
+    <path id="Path_1034" data-name="Path 1034" d="M149.073,105.229l-10.532,19.922h38.012l-10.532-19.922Z" transform="translate(-91.048 -69.155)" fill="#6b32de"/>
+    <path id="Path_1035" data-name="Path 1035" d="M244.329,105.229H234.161l10.957,19.922h19.006Z" transform="translate(-153.888 -69.155)" fill="#6b32de"/>
+  </g>
+</svg>

@@ -64,14 +64,6 @@ const faqs = [
 
 
 function FAQ() {
-
-  useEffect(() => {
-    AOS.init({
-      startEvent: 'load',
-      once: false,
-    });
-    // AOS.refresh();
-  }, []);
   
       return (
         <>
@@ -83,18 +75,10 @@ function FAQ() {
           <div className="row">
             <div className="col-md-6 offset-md-3">
             {faqs.map(faq => (
-          <Accordion  key={faq.id} defaultActiveKey="0">
-            <Accordion.Item eventKey={faq.eventKey} style={{marginBottom: '0.5rem'}}  data-aos="fade-up">
-              <Accordion.Header>{faq.question}</Accordion.Header>
-              <Accordion.Body>{faq.answer}
-              { faq.formLinkTrue == true ? (
-              <a href={faq.formLink}> {faq.formLink}</a>
-              ) : (
-                <></>
-              )}
-              </Accordion.Body>
-            </Accordion.Item>            
-          </Accordion>
+              <div className='faq-item'>
+                <h5 className='faq-title bolder'>{faq.question}</h5>
+                <p>{faq.answer}</p>
+              </div>
             ))}
           </div>
           </div>

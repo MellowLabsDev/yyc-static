@@ -17,12 +17,24 @@
   font-family: bubblegum;
 }
 
+.montreg {
+  font-family: montReg!important;
+}
+
 $main-color: #273246;
+
+$brand-pink:#f903a5;
+
+$brand-purple:#723bdf;
 
 * {
   img {
     pointer-events: none
   }
+}
+
+html, body {
+  height:100%;
 }
 
 body {
@@ -193,7 +205,6 @@ label {
 }
 
 .navbar {
-  background-color: $main-color;  
   width: 100%;
 }
 
@@ -276,13 +287,12 @@ label {
 
 #about {
   height: 100%;
-  background: $main-color;
-  // background: linear-gradient(0deg, rgba(237,154,194,1) 29%, rgba(0,0,0,1) 100%);
+  background: linear-gradient(#392178, #6a32dc);
   color: white!important;
 }
 
 #team {
-  background-color: $main-color;  
+  background-color: #392178;  
   font-family: montReg;
   color: white;
 }
@@ -303,10 +313,23 @@ label {
   box-shadow: 0 0 10px #000000 !important;
 }
 
-#faq {
-  background-color: $main-color;
+#faq {  
+  background-image: url("/images/footerImg.png"), linear-gradient(#392178, #6a32dc, #392178);
   font-family: montReg;
   color: white;
+  // background-image: url("/images/footerOverlay.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-bottom: 100px;
+}
+
+.faq-item{
+  border-bottom: 1px solid white;
+  margin-bottom: 2rem;
+}
+
+.faq-title{
+  color: $brand-pink;
 }
 
 .ga-section-title{
@@ -326,6 +349,15 @@ label {
   background-color: $main-color;
   font-family: montReg;
   color: white;
+  background-color: transparent;
+  position: absolute;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  margin: auto;
+  width: 100vw;
 }
 
 .team-container {
@@ -335,8 +367,8 @@ label {
 
 //accordion
 .accordion-button{
-  background-color:#273246!important;
-  color: #d4d9df!important;
+  background-color:transparent!important;
+  color: $brand-pink!important;
 }
 
 .accordion-body{
@@ -345,7 +377,8 @@ label {
 }
 
 .accordion-item{
-  border: 1px solid rgba(255, 255, 255, 0.125)!important;
+  border: none!important;
+  background-color: transparent!important;
 }
 
 .accordion-button:not(.collapsed)::after {
@@ -867,16 +900,73 @@ button{
 }
 
 //banners
-.hero {
-  background-repeat: no-repeat!important;
-  background-size: contain!important;
-  background-position: center!important;
+// .hero {
+//   background-repeat: no-repeat!important;
+//   background-size: contain!important;
+//   background-position: center!important;
+// }
+
+.landing-hero-image{
+  min-height: 100%;
+  width: 100vw;
+}
+
+.landing-hero-2{
+  background: url('/images/bgs/stars.png') no-repeat center bottom;
+  background-size: cover;
+  background-color: #323131;
+  width: 100%;
+  text-align: center;
+}
+
+.landing-hero-3{
+  background: url('/images/bgs/grid.png') no-repeat center top;
+  background-size: cover;
+  background-color: #323131;
+  width: 100%;
+  text-align: center;
+}
+
+.landing-hero-4{
+  background-color: #252525;
+  width: 100%;
+  text-align: center;
+}
+
+.brands{
+  max-height:50px;
+  max-width: 30vw;
+}
+
+.hero-yeti{
+  margin: auto;
+  position: center;
+  max-width: 40vw;
+}
+
+.register-button{
+  border-radius: 50px;
+  margin: 1.5rem;
+  padding: .5rem 1.5rem;
+  background-color: $brand-purple;
+  border: none;
+  color: white;
+  font-weight: bolder;
+  font-size: 40px!important;
+
+  &:hover {
+    background-color: $brand-pink;
+  }
 }
 
 .home-banner {
-  background: url('/images/banners/homeBanner.png');
-  height: 60vh!important;
+  background: url('/images/banners/home.png') no-repeat center top;
+  background-size: cover;
+  width: 100vw!important;
+  min-width: 100vw!important;
   margin-bottom: 20px;
+  height: 100%;
+  min-height: 100vh;
 }
 
 
@@ -941,4 +1031,36 @@ button{
     background: url('/images/banners/hbMobile.jpg');
     height: 30vh!important;
   }
+  }
+
+  .fixed-top {
+    position:absolute!important;
+  }
+
+  .navbar-toggler {
+    box-shadow:none!important;
+    border: none!important;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow:none!important;
+    border: none!important;
+  }
+
+  .btn-close {
+    color:$brand-pink!important;
+  }
+
+  #hb-section{
+    background-image: linear-gradient(#252525, #392178);
+    margin: auto;
+  }
+
+  .holder-chart{
+    max-width: 75vw;
+    max-height: 100vh;
+  }
+
+  #CompRm {
+    background: linear-gradient(#6a32dc, #392178);
   }
