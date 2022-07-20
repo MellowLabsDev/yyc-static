@@ -13,7 +13,7 @@ function CompRm() {
                 <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
                                   
                   <div className="col-10 col-sm-8 col-lg-8">
-                    <img src="/images//charts/compChart.png" className="d-block mx-lg-auto img-fluid" alt="yetigrid" width="700" height="500" loading="lazy"></img>
+                    <img src="/images/charts/compChart.png" className="d-block mx-lg-auto img-fluid" alt="yetigrid" width="700" height="500" loading="lazy"></img>
                   </div>
                   <div className="col-lg-4">
                     <h1 className="display-5 fw-bold lh-1 mb-3 bubblegum">NFT Blue-Chip Comparison Chart</h1>
