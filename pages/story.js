@@ -51,7 +51,7 @@ export default function Story() {
         
       </Head>
       
-      <Hero classname='story-banner'/>
+      <Hero classname='story-banner' imgSrc='/images/banners/cigarLounge.png' />
       <div id='story'>
       <div className="container">
           <div className="row align-items-center h-100 justify-content-center">

@@ -56,7 +56,7 @@ export default function HolderBenefits() {
       </Head>
       
       
-      <Hero classname='holder-banner'/>
+      <Hero classname='holder-banner' imgSrc='/images/banners/yachtParty.png'/>
       <div id='holder-benefits'>
         <div className="container">
           <div className="row align-items-center h-100 justify-content-center text-center">

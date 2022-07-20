@@ -1021,6 +1021,10 @@ button{
   max-width: 40vw;
 }
 
+.hero-border {  
+  border-bottom: 8px solid $brand-pink;
+}
+
 .register-button{
   border-radius: 50px;
   margin: 1.5rem;

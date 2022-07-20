@@ -51,7 +51,7 @@ export default function Roadmap() {
         
         
       </Head>      
-      <Hero classname='roadmap-banner'/>
+      <Hero classname='roadmap-banner' imgSrc='/images/banners/snowParty.png'/>
       <RoadmapComp/>
         
       

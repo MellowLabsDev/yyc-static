@@ -104,7 +104,7 @@ export default function Team() {
         
         
       </Head>
-      <Hero classname='team-banner'/>
+      <Hero classname='team-banner' imgSrc='/images/banners/beachParty.png'/>
           
         <div className="container">
         <div className="px-4 py-5">

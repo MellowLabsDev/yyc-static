@@ -5,9 +5,10 @@ import AOS from 'aos';
 
 function Hero(props) {
       return (
-        <>
-        <div id='hero' className={'hero mt-10' + " " +  props.classname}>
-        </div>
+        <>        
+        <img className='landing-hero-image hero-border' src={props.imgSrc}></img>
+        {/* <div id='hero' className={'hero mt-10' + " " +  props.classname}>
+        </div> */}
         </>
       );
     }
