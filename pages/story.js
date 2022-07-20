@@ -55,8 +55,8 @@ export default function Story() {
       <div id='story'>
       <div className="container">
           <div className="row align-items-center h-100 justify-content-center">
-            <div className="col" style={{maxWidth:"900px"}}>
-              <h1 className="display-3 bubblegum" style={{textAlign:"center"}}>Story</h1>
+            <div className="col">
+              <h1 className="display-3 bubblegum">Story</h1>
               <p className="lead">
                 Yetis were once nomadic creatures that thrived in the remote mountains of the Himalayas. They lead simple lives jumping over rocks and playing with sticks to kill time. 
               <br/>

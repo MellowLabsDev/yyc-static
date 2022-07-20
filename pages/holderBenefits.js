@@ -59,15 +59,17 @@ export default function HolderBenefits() {
       <Hero classname='holder-banner'/>
       <div id='holder-benefits'>
         <div className="container">
-          <div className="row align-items-center h-100 justify-content-center">
-            <div className="col" style={{maxWidth:"900px", textAlign:'center'}}>
-              <h1 className="display-3 bubblegum" style={{textAlign:'center'}}>Holder Benefits</h1>
-              <p className="lead">
-              <span className="bold-list">Yeti Secret Society is looking to enhance our investor's lifestyle by providing only the most luxurious amenities. As with all aspects of this project, we are looking to deliver a first-class experience and value to our community.
-              </span><br/><br/>
-              <span className="bold-list">Yeti Secret Society</span> - The Most Exclusive NFT club on Earth
-              <br/><br/>
-              </p>
+          <div className="row align-items-center h-100 justify-content-center text-center">
+            <div className="col">
+              <div style={{textAlign:"left!important"}}>
+                <h1 className="display-3 bubblegum">Holder Benefits</h1>
+                <p className="lead">
+                <span className="bold-list">Yeti Secret Society is looking to enhance our investor's lifestyle by providing only the most luxurious amenities. As with all aspects of this project, we are looking to deliver a first-class experience and value to our community.
+                </span><br/><br/>
+                <span className="bold-list">Yeti Secret Society</span> - The Most Exclusive NFT club on Earth
+                <br/><br/>
+                </p>
+              </div>
               <img src='/images/yetiHolderB.png' style={{maxWidth:'90vw'}}  data-aos="fade-up"></img>
 
             </div>

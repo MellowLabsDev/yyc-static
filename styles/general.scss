@@ -190,14 +190,30 @@ label {
   @apply text-sm text-primary-600;
 }
 
+
+
 .navLogo {
   height: 2.5rem;
 }
 
-@media only screen and (min-width: 992px) {
-.navSocial {
-  margin: auto;
+.nav-social { 
+  display: inline-block;
+  padding-right: 1rem!important;
 }
+
+.nav-social svg {
+  height: 3rem;
+  width: 3rem; 
+}
+
+.nav-social-cont {
+  display: flex;
+  margin: auto;
+  padding-top: 4rem;
+}
+
+.btn-close svg{
+  fill: $brand-pink!important;
 }
 
 #nav {
@@ -218,8 +234,12 @@ label {
   font-family: 'montReg';
   
   &:hover {    
-    color:#999597!important;
+    color:$brand-pink!important;
   }
+}
+
+.nav-link svg {
+  fill: $brand-pink!important;
 }
 
 .navbar-toggler{
@@ -298,7 +318,6 @@ label {
 }
 
 .team-row {
-  max-width: 1000px;
   margin: auto!important;
 }
 
@@ -336,6 +355,17 @@ label {
   font-family: montReg;
   color: white;
   padding-bottom: 25vh;
+}
+
+.team {
+  background: linear-gradient(#392178, #6a32dc,#392178);
+  background-position: cover;
+}
+
+.team-image {  
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  border-radius:50%!important;
 }
 
 .roadmap-img {
@@ -438,6 +468,23 @@ footer{
 #hero{  
   border-bottom: 8px solid $brand-pink;
 }
+
+
+// #hero:before,
+// #hero:after {
+//   content: '';
+//   position: absolute;
+//   top: 100%;
+//   left: 19px;
+//   border: 11px solid transparent;
+//   border-bottom-color: #dddddd;
+// }
+
+// #hero:after {
+//   left: 20px;
+//   border: 10px solid transparent;
+//   border-bottom-color: #ffffff;
+// }
 
 .hero-image {
   min-height: 40vh;
@@ -991,7 +1038,7 @@ button{
 
 
 .team-banner {
-  background: url('/images/banners/beachParty.png');
+  background: url('/images/banners/beachParty.png') center;
   height: 90vh!important;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1000,13 +1047,12 @@ button{
 
   @media only screen and (max-width: 750px) {
   .team-banner {
-  background: url('/images/banners/teamMobile.png');
-  height: 30vh!important;
+  height: 25vh!important;
   }
   }
 
   .roadmap-banner {
-  background: url('/images/banners/snowParty.png');
+  background: url('/images/banners/snowParty.png') center;
   height: 90vh!important;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1015,13 +1061,12 @@ button{
 
   @media only screen and (max-width: 750px) {
   .roadmap-banner {
-  background: url('/images/banners/roadmapMobile.jpg');
-  height: 30vh!important;
+  height: 25vh!important;
   }
   }
 
   .story-banner {
-  background: url('/images/banners/cigarLounge.png');
+  background: url('/images/banners/cigarLounge.png') center;
   height: 90vh!important;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1030,13 +1075,12 @@ button{
 
   @media only screen and (max-width: 750px) {
   .story-banner {
-    background: url('/images/banners/storyMobile.png');
-    height: 30vh!important;
+    height: 25vh!important;
   }
   }
 
   .holder-banner {
-    background: url('/images/banners/yachtParty.png');
+    background: url('/images/banners/yachtParty.png') center;
     height: 90vh!important;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1045,14 +1089,20 @@ button{
 
   @media only screen and (max-width: 750px) {
   .holder-banner {
-    background: url('/images/banners/hbMobile.jpg');
-    height: 30vh!important;
+    height: 25vh!important;
   }
   }
 
   .fixed-top {
     position:absolute!important;
   }
+
+  @media only screen and (min-width: 700px) {
+    .navbar-toggler-icon {
+      height: 3rem!important;
+      width: 3rem!important;
+    }
+    }
 
   .navbar-toggler {
     box-shadow:none!important;
@@ -1085,3 +1135,15 @@ button{
   .roadmap-chart {
     max-width: 100%;
   }
+
+  @media only screen and (max-width: 750px) {
+  .rm-d{
+    display: none!important;
+  }
+}
+
+@media only screen and (min-width: 751px) {
+  .rm-m {
+    display: none!important;
+  }
+}

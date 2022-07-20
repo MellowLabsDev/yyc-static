@@ -65,7 +65,7 @@ const teamMembers = [
   linkedinHref : "",
   img : "/images/team/meagan.png",
   }, 
-  {id:4,
+  {id:6,
   name : "Ayesha",
   title : "Moderator",
   desc : "",  
@@ -83,15 +83,17 @@ function TeamComponent() {
 
       return (
         <>
-        <div id='team'>
-        <div className="px-4 py-5 text-center">
-          <h1 className="display-5 fw-bold ga-section-title">Team</h1>
+        <div className='team'>
+          
+        <div className="container">
+        <div className="px-4 py-5">
+              <h1 className="display-5 fw-bold bubblegum text-left" >Team</h1>
             <div className="row team-row justify-content-center">
 
             {teamMembers.map(member => (
-              <div  key={member.id} className="col-sm-6 col-lg-4 team-container">
+              <div  key={member.id} className="col-sm-6 col-lg-4 team-container text-center">
               <Card style={{ backgroundColor:"transparent", width: '18rem', margin:'auto', height:'100%', borderRadius:'0', border:'0', overflow:'hidden' }}>
-                <Card.Img variant="top" style={{borderRadius:"50px"}} src={member.img} />
+                <Card.Img variant="top" className='team-image' src={member.img} />
                 <Card.Body>
                   <Card.Title>{member.name}</Card.Title>
                   <Card.Text>
@@ -101,13 +103,13 @@ function TeamComponent() {
                   </Card.Text>
                   <ul className="nav col-md-4 justify-content-center list-unstyled d-flex" style={{margin:'auto'}}>
                   { member.twitter == true ? (
-                  <li><a href={member.twitterHref}><FaTwitter  size={"1.5rem"} /></a></li>
+                  <li><a href={member.twitterHref}><FaTwitter  size={"1.5rem"} color={"#f903a5"} style={{marginRight:'1rem'}} /></a></li>
                   ) : (
                     
                   <li style={{width:0}}></li> 
                   ) }
                   { member.linkedin == true ? (
-                  <li><a href={member.linkedinHref}><FaLinkedin  size={"1.5rem"} /></a></li>
+                  <li><a href={member.linkedinHref}><FaLinkedin  size={"1.5rem"} color={"#f903a5"} /></a></li>
                   ) : (
                     
                   <li style={{width:0}}></li> 
@@ -120,6 +122,7 @@ function TeamComponent() {
               
             </div>
           </div>
+        </div>
         </div>
         </>
       );

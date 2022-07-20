@@ -9,10 +9,10 @@ function CompRm() {
         <div id='CompRm'>
           <div className="container">
 
-              <div className="container px-4 py-5">
+              <div className="container py-5">
                 <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
                                   
-                  <div className="col-10 col-sm-8 col-lg-6">
+                  <div className="col-10 col-sm-8 col-lg-8">
                     <img src="/images/yetiCompChart.png" className="d-block mx-lg-auto img-fluid" alt="yetigrid" width="700" height="500" loading="lazy"></img>
                   </div>
                   <div className="col-lg-4">
@@ -25,7 +25,8 @@ function CompRm() {
                 <h1 className="display-5 bubblegum">Roadmap</h1>
                 <p className="lead">As the Yeti Secret Society develops, we will be continuously updating our roadmap to suit the needs and wants of our community. As many know, the NFT space is ever changing and adapting is a must in this realm of work in order to thrive and prosper. The roadmap is no different when it comes to the ever changing world of Crypto. Our goal is to depict the overall idea of our current plans and what we’ve considered to be a feasible outlook of the future. One thing that is immune to the constant change of crypto is our work ethic and our constant efforts to provide a transparent and premium community.</p>
               </div>  
-              <img className='roadmap-chart' src='/images/charts/roadmap.png'></img>
+              <img className='roadmap-chart rm-d' src='/images/charts/roadmap.png'></img>
+              <img className='roadmap-chart rm-m' src='/images/charts/roadmapMobile.png'></img>
             
 
           </div>
