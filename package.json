@@ -1,6 +1,5 @@
 {
   "name": "yeti-static",
-  "homepage": "https://cpl.aie.mybluehost.me/",
   "version": "0.1.0",
   "private": true,
   "scripts": {
