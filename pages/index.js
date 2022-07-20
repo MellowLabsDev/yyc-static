@@ -12,19 +12,19 @@ export default function Home() {
   return (
     <div className="min-h-screen h-full w-full flex flex-col bg-brand-light overflow-hidden">
       <Head>
-        <title>YYC | Yeti Secret Society</title>
+        <title>YSS | Yeti Secret Society</title>
         <meta name="description" content="Join the Yeti Secret Society today!" />
         <link rel="icon" href="/favicon.png" />
 
         <meta property="og:type" content="website"/>
         <meta property="og:url" content="https://yeticlub.io/"/>
-        <meta property="og:title" content="YYC | Yeti Secret Society"/>
+        <meta property="og:title" content="YSS | Yeti Secret Society"/>
         <meta property="og:description" content="Join the Yeti Secret Society today!"/>       
         <meta property="og:image" content="https://yeticlub.io/images/metaImg.jpg"/>
 
         <meta property="twitter:card" content="summary_large_image"/>
         <meta property="twitter:url" content="https://yeticlub.io/"/>
-        <meta property="twitter:title" content="YYC | Yeti Secret Society"/>
+        <meta property="twitter:title" content="YSS | Yeti Secret Society"/>
         <meta property="twitter:description" content="Join the Yeti Secret Society today!"/>
         <meta property="twitter:image" content="https://yeticlub.io/images/metaImg.jpg"/>      
         

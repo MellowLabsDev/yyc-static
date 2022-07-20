@@ -36,19 +36,19 @@ export default function HolderBenefits() {
   return (
     <div className="min-h-screen h-full w-full flex flex-col bg-brand-light overflow-hidden">
       <Head>
-        <title>YYC | Holder Benefits</title>
+        <title>YSS | Holder Benefits</title>
         <meta name="description" content="Join the Yeti Secret Society today!" />
         <link rel="icon" href="/favicon.png" />
 
         <meta property="og:type" content="website"/>
         <meta property="og:url" content="https://yeticlub.io/"/>
-        <meta property="og:title" content="YYC | Tokenomics"/>
+        <meta property="og:title" content="YSS | Tokenomics"/>
         <meta property="og:description" content="Join the Yeti Secret Society today!"/>       
         <meta property="og:image" content="https://yeticlub.io/images/metaImg.jpg"/>
 
         <meta property="twitter:card" content="summary_large_image"/>
         <meta property="twitter:url" content="https://yeticlub.io/"/>
-        <meta property="twitter:title" content="YYC | Tokenomics"/>
+        <meta property="twitter:title" content="YSS | Tokenomics"/>
         <meta property="twitter:description" content="Join the Yeti Secret Society today!"/>
         <meta property="twitter:image" content="https://yeticlub.io/images/metaImg.jpg"/>      
         
@@ -70,7 +70,7 @@ export default function HolderBenefits() {
                 <br/><br/>
                 </p>
               </div>
-              <img src='/images/yetiHolderB.png' style={{maxWidth:'90vw'}}  data-aos="fade-up"></img>
+              <img src='/images/charts/holderChart.png' style={{maxWidth:'90vw'}}  data-aos="fade-up"></img>
 
             </div>
           </div>
