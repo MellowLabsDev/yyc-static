@@ -209,7 +209,7 @@ label {
 .nav-social-cont {
   display: flex;
   margin: auto;
-  padding-top: 4rem;
+  bottom: 0;
 }
 
 .btn-close svg{
@@ -1128,7 +1128,7 @@ button{
   }
 
   .holder-chart{
-    max-width: 75vw;
+    max-width: 100%;
     max-height: 100vh;
   }
 
@@ -1156,4 +1156,24 @@ button{
   color: white!important;
   background-color: #2d1d61!important;
   border-radius: 50px!important;
+}
+
+[data-rmiz-wrap="visible"], [data-rmiz-wrap="hidden"] {
+display:block!important;
+}
+
+[data-rmiz-overlay] {
+background-color: #392178!important;
+}
+
+.icon-size{
+  margin: auto;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+}
+
+.navbar-nav{
+  height: 100%;
 }

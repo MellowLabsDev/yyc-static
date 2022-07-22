@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import '../styles/main.scss'
 import Layout from '../components/layout';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import 'react-medium-image-zoom/dist/styles.css'
 import Script from 'next/script';
 
 export default function MyApp({ Component, pageProps }) { 
