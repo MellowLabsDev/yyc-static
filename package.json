@@ -3,9 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 8080",
     "build": "next build",
+<<<<<<< Updated upstream
     "start": "next start",
+=======
+    "start": "next start -p 8080",
+>>>>>>> Stashed changes
     "lint": "next lint",
     "export": "next export"
   },
