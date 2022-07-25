@@ -40,18 +40,18 @@ function LandingHero() {
                 <div className="d-inline-block m-2" >
                   <a href="https://cryptoadventure.com/5-bayc-like-nft-projects-to-watch-out-for-in-2022/"><img className="brands" src="/images/brands/cryptoAdventure.svg"></img></a>
                 </div>      
-                <div className="d-inline-block m-2" >
+                {/* <div className="d-inline-block m-2" >
                   <a href=""><img className="brands" src="/images/brands/decrypt.svg"></img></a>
-                </div>      
+                </div>       */}
                 <div className="d-inline-block m-2" >
                   <a href="https://hackernoon.com/the-quest-of-investors-for-the-next-bored-ape-nft-project"><img className="brands" src="/images/brands/hackernoon.svg"></img></a>
                 </div>     
                 <div className="d-inline-block m-2" >
                   <a href="https://techbullion.com/yeti-yacht-club-a-project-betting-on-mega-yachts-and-nfts/"><img className="brands" src="/images/brands/techbullion.svg"></img></a>
                 </div>     
-                <div className="d-inline-block m-2" >
+                {/* <div className="d-inline-block m-2" >
                   <a href=""><img className="brands" src="/images/brands/zcrypto.svg"></img></a>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
