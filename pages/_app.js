@@ -4,6 +4,7 @@ import Layout from '../components/layout';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'react-medium-image-zoom/dist/styles.css'
 import Script from 'next/script';
+import "aos/dist/aos.css";
 
 export default function MyApp({ Component, pageProps }) { 
   return (

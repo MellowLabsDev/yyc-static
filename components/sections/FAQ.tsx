@@ -64,6 +64,10 @@ const faqs = [
 
 
 function FAQ() {
+  useEffect(() => {
+      AOS.init();
+      AOS.refresh();
+    }, []);
   
       return (
         <>
@@ -75,7 +79,7 @@ function FAQ() {
           <div className="row">
             <div className="col-md-6 offset-md-3">
             {faqs.map(faq => (
-              <div key={faq.id} className='faq-item'>
+              <div key={faq.id} className='faq-item' data-aos="fade-up">
                 <h5 className='faq-title bolder'>{faq.question}</h5>
                 <p>{faq.answer}</p>
               </div>

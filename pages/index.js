@@ -7,8 +7,13 @@ import LandingHero from '../components/sections/LandingHero.tsx'
 import Gallery from '../components/sections/Gallery.tsx'
 import HolderBenefitsSection from '../components/sections/hb.tsx'
 import CompRm from '../components/sections/CompRm.tsx'
+import AOS from "aos";
 
 export default function Home() { 
+  useEffect(() => {
+      AOS.init();
+      AOS.refresh();
+    }, []);
   return (
     <div className="min-h-screen h-full w-full flex flex-col bg-brand-light overflow-hidden">
       <Head>

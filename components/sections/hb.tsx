@@ -1,8 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Image  } from 'react-bootstrap';
-import Zoom from 'react-medium-image-zoom'
+import Zoom from 'react-medium-image-zoom';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function hbSection() {
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+      }, []);
       return (
         <>
         <div id='hb-section' className='py-4'>
@@ -10,7 +16,7 @@ function hbSection() {
             <div className='row m-auto'>
                 <div className="col-md-6">
                     <h1 className="display-3 bubblegum">Holder Benefits</h1>
-                    <div className="border-0 mb-4">
+                    <div className="border-0 mb-4" data-aos="fade-up">
                         <div className="d-flex">
                             <div className="me-2 text-success-gradiant icon-size"><img src='/images/icons/hbDiamond.svg'></img></div>
                             <div className="">
@@ -19,7 +25,7 @@ function hbSection() {
                             </div>
                         </div>
                     </div>
-                    <div className="border-0 mb-4">
+                    <div className="border-0 mb-4" data-aos="fade-up">
                         <div className="d-flex">
                             <div className="me-2 text-success-gradiant icon-size"><img src='/images/icons/hbChair.svg'></img></div>
                             <div className="">
@@ -28,7 +34,7 @@ function hbSection() {
                             </div>
                         </div>
                     </div>
-                    <div className="border-0 mb-4">
+                    <div className="border-0 mb-4" data-aos="fade-up">
                         <div className="d-flex">
                             <div className="me-2 text-success-gradiant icon-size"><img src='/images/icons/hbDrinks.svg'></img></div>
                             <div className="">
@@ -37,7 +43,7 @@ function hbSection() {
                             </div>
                         </div>
                     </div>
-                    <div className="border-0 mb-4">
+                    <div className="border-0 mb-4" data-aos="fade-up">
                         <div className="d-flex">
                             <div className="me-2 text-success-gradiant icon-size"><img src='/images/icons/hbPalm.svg'></img></div>
                             <div className="">
@@ -49,7 +55,7 @@ function hbSection() {
                 </div>
                 <div className='col text-center'>
                     <Zoom>
-                    <img className='holder-chart' src='/images/charts/holderChart.png'></img>
+                    <img className='holder-chart' data-aos="fade-up" src='/images/charts/holderChart.png'></img>
                     </Zoom>
                 </div>
             </div>

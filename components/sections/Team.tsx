@@ -79,6 +79,10 @@ const teamMembers = [
 
 
 function TeamComponent() {
+  useEffect(() => {
+      AOS.init();
+      AOS.refresh();
+    }, []);
   
 
       return (
@@ -91,7 +95,7 @@ function TeamComponent() {
             <div className="row team-row justify-content-center">
 
             {teamMembers.map(member => (
-              <div  key={member.id} className="col-sm-6 col-lg-4 team-container text-center">
+              <div  key={member.id} className="col-sm-6 col-lg-4 team-container text-center" data-aos="fade-up">
               <Card style={{ backgroundColor:"transparent", width: '18rem', margin:'auto', height:'100%', borderRadius:'0', border:'0', overflow:'hidden' }}>
                 <Card.Img variant="top" className='team-image' src={member.img} />
                 <Card.Body>

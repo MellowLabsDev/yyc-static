@@ -7,31 +7,6 @@ import Hero from '../components/sections/Hero.tsx'
 
 export default function HolderBenefits() { 
   
-  useEffect(() => {
-    AOS.init({
-      startEvent: 'load',
-      once: false,
-    });
-    // AOS.refresh();
-  }, []);
-
-  const [windowDimension, setWindowDimension] = useState(null)
-    
-  useEffect(() => {
-    setWindowDimension(window.innerWidth)
-  }, [])
-
-  useEffect(() => {
-    function handleResize() {
-      setWindowDimension(window.innerWidth)
-    }
-
-    window.addEventListener("resize", handleResize)
-    return () => window.removeEventListener("resize", handleResize)
-  }, [])
-  const isBig = windowDimension >= 640
-
-  const heroImg='/images/banner.jpg';
   
   return (
     <div className="min-h-screen h-full w-full flex flex-col bg-brand-light overflow-hidden">
@@ -70,7 +45,7 @@ export default function HolderBenefits() {
                 <br/><br/>
                 </p>
               </div>
-              <img src='/images/charts/holderChart.png' style={{maxWidth:'90vw'}}  data-aos="fade-up"></img>
+              <img src='/images/charts/holderChart.png' style={{maxWidth:'90vw'}}></img>
 
             </div>
           </div>
