@@ -75,7 +75,7 @@ function FAQ() {
           
         <div className="container px-4 py-5">
           
-        <h1 className="display-5 fw-bold ga-section-title">FAQs</h1>
+        <h1 className="display-3 fw-bold lh-1 mb-3 bubblegum text-center">FAQs</h1>
           <div className="row">
             <div className="col-md-6 offset-md-3">
             {faqs.map(faq => (

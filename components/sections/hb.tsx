@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import { Image  } from 'react-bootstrap';
 import Zoom from 'react-medium-image-zoom';
 import AOS from "aos";
-import "aos/dist/aos.css";
 
 function hbSection() {
     useEffect(() => {
@@ -15,7 +14,7 @@ function hbSection() {
           <div className="container my-4">
             <div className='row m-auto'>
                 <div className="col-md-6">
-                    <h1 className="display-3 bubblegum">Holder Benefits</h1>
+                    <h1 className="display-3 fw-bold lh-1 mb-3 bubblegum">Holder Benefits</h1>
                     <div className="border-0 mb-4" data-aos="fade-up">
                         <div className="d-flex">
                             <div className="me-2 text-success-gradiant icon-size"><img src='/images/icons/hbDiamond.svg'></img></div>

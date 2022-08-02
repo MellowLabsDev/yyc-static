@@ -60,7 +60,7 @@ export default function HolderBenefits() {
           <div className="row align-items-center h-100 justify-content-center text-center">
             <div className="col">
               <div style={{textAlign:"left!important"}}>
-                <h1 className="display-3 bubblegum">Holder Benefits</h1>
+                <h1 className="display-3 fw-bold lh-1 mb-3 bubblegum mt-4">Holder Benefits</h1>
                 <p className="lead">
                 <span className="bold-list">Yeti Secret Society is looking to enhance our investor's lifestyle by providing only the most luxurious amenities. As with all aspects of this project, we are looking to deliver a first-class experience and value to our community.
                 </span><br/><br/>

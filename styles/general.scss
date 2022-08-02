@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: bubblegum;
-  src: url(./fonts/Bubblegum.ttf);
+  src: url(./fonts/JosefinSlab.ttf);
 }
 
 .bubblegum {
@@ -208,7 +208,7 @@ label {
 
 .nav-social-cont {
   display: flex;
-  margin: auto;
+  // margin: auto;
   bottom: 0;
 }
 
@@ -1013,6 +1013,7 @@ button{
 .brands{
   max-height:50px;
   max-width: 30vw;
+  height:50px;
 }
 
 .hero-yeti{
@@ -1028,11 +1029,10 @@ button{
 .register-button{
   border-radius: 50px;
   margin: 1.5rem;
-  padding: 1rem 1.5rem;
+  padding: 1rem 3rem;
   background-color: $brand-purple;
   border: none;
   color: white;
-  font-weight: bolder;
   font-size: 2rem!important;
 
   &:hover {
@@ -1185,4 +1185,17 @@ background-color: #392178!important;
 
 .offcanvas-header{
   display: block!important;
+}
+
+@media only screen and (max-width: 750px) {
+  .icon-size img{
+    max-height: 50px;
+  }
+}
+
+@media only screen and (min-width: 751px) {
+  .icon-size img{
+    max-height: 100px;
+    padding-right: 2.5rem;
+  }
 }

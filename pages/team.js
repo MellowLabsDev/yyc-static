@@ -111,8 +111,8 @@ export default function Team() {
       <Hero classname='team-banner' imgSrc='/images/banners/beachParty.png'/>
           
         <div className="container">
-        <div className="px-4 py-5">
-              <h1 className="display-5 fw-bold bubblegum text-left" >Team</h1>
+        <div className="px-4">
+              <h1 className="display-3 fw-bold lh-1 mb-3 bubblegum mt-4" >Team</h1>
             <div className="row team-row justify-content-center">
 
             {teamMembers.map(member => (

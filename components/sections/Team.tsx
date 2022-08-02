@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import { Card  } from 'react-bootstrap';
 import AOS from 'aos';
-import "aos/dist/aos.css";
 import { FaTwitter, FaLinkedin } from 'react-icons/fa';
 
 const teamMembers = [
@@ -91,7 +90,7 @@ function TeamComponent() {
           
         <div className="container">
         <div className="px-4 py-5">
-              <h1 className="display-5 fw-bold bubblegum text-left" >Team</h1>
+              <h1 className="display-3 fw-bold lh-1 mb-3 bubblegum text-left" >Team</h1>
             <div className="row team-row justify-content-center">
 
             {teamMembers.map(member => (

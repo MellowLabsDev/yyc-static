@@ -31,7 +31,7 @@ function NavComponent() {
                       <Offcanvas.Header closeButton>
                       </Offcanvas.Header>
                       <Offcanvas.Body>
-                        <Nav className="justify-content-end flex-grow-1 pe-3">
+                        <Nav className="flex-grow-1 pe-3" style={{marginLeft:"2rem"}}>
                           <Nav.Link href="/">Home</Nav.Link>
                           <Nav.Link href="/roadmap">Roadmap</Nav.Link>
                           <Nav.Link href="/story">Story</Nav.Link>

@@ -14,7 +14,7 @@ function LandingHero() {
             <div className='mt-6'>
                 <div className="justtify-content-center">
                     <div className="row align-items-center justtify-content-center" style={{textAlign:'center'}}>
-                      <h1 className='display-3 bubblegum mt-4'>Get Whitelisted</h1> 
+                      <h1 className='display-3 fw-bold lh-1 mb-3 bubblegum mt-4'>Pre-Register</h1> 
                     </div>
                 </div>
                 
@@ -28,7 +28,7 @@ function LandingHero() {
         <div className='landing-hero-4'>       
           <div className="justtify-content-center">
               <div className="row align-items-center justtify-content-center" style={{textAlign:'center'}}>
-                <h1 className='display-3 montreg my-4'>As Seen On</h1> 
+                <h1 className='display-3 fw-bold lh-1 mb-3 my-4'>As Seen On</h1> 
               </div>
           </div>
           <div className="container-fluid">
@@ -40,9 +40,9 @@ function LandingHero() {
                 <div className="d-inline-block m-2" >
                   <a href="https://cryptoadventure.com/5-bayc-like-nft-projects-to-watch-out-for-in-2022/"><img className="brands" src="/images/brands/cryptoAdventure.svg"></img></a>
                 </div>      
-                {/* <div className="d-inline-block m-2" >
-                  <a href=""><img className="brands" src="/images/brands/decrypt.svg"></img></a>
-                </div>       */}
+                <div className="d-inline-block m-2" >
+                  <a href="https://finance.yahoo.com/news/yeti-yacht-club-project-wishes-202224717.html"><img className="brands" src="/images/brands/yahooFinance.svg"></img></a>
+                </div>      
                 <div className="d-inline-block m-2" >
                   <a href="https://hackernoon.com/the-quest-of-investors-for-the-next-bored-ape-nft-project"><img className="brands" src="/images/brands/hackernoon.svg"></img></a>
                 </div>     
