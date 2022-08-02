@@ -6,7 +6,7 @@ import { FaTwitter, FaLinkedin } from 'react-icons/fa';
 const teamMembers = [
   {id:0,
   name : "David",
-  title : "CEO/Co-Founder",
+  title : "CEO",
   desc : "",
   twitter : true,
   twitterHref : "https://twitter.com/davidjustin84",
@@ -16,7 +16,7 @@ const teamMembers = [
   }, 
   {id:1,
   name : "Dan",
-  title : "Marketing/Co-Founder",
+  title : "Marketing/Executive Team",
   desc : "",  
   twitter : true,
   twitterHref : "https://twitter.com/DansRoadToRichs",
@@ -106,13 +106,13 @@ function TeamComponent() {
                   </Card.Text>
                   <ul className="nav col-md-4 justify-content-center list-unstyled d-flex" style={{margin:'auto'}}>
                   { member.twitter == true ? (
-                  <li><a href={member.twitterHref}><FaTwitter  size={"1.5rem"} color={"#f903a5"} style={{marginRight:'1rem'}} /></a></li>
+                  <li><a href={member.twitterHref} target="_blank"><FaTwitter  size={"1.5rem"} color={"#f903a5"} style={{marginRight:'1rem'}} /></a></li>
                   ) : (
                     
                   <li style={{width:0}}></li> 
                   ) }
                   { member.linkedin == true ? (
-                  <li><a href={member.linkedinHref}><FaLinkedin  size={"1.5rem"} color={"#f903a5"} /></a></li>
+                  <li><a href={member.linkedinHref} target="_blank"><FaLinkedin  size={"1.5rem"} color={"#f903a5"} /></a></li>
                   ) : (
                     
                   <li style={{width:0}}></li> 

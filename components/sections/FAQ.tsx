@@ -10,7 +10,7 @@ const faqs = [
   }, 
   {id:1,
   question : "What is the Total Supply?",
-  answer : "Total Supply is 10,000 Yetis",
+  answer : "Total Supply is 10,000 Yetis.",
   eventKey :"1",
   }, 
   {id:2,
@@ -25,7 +25,7 @@ const faqs = [
   }, 
   {id:4,
   question : "Wen Mint?",
-  answer : "-White List mint: TBA. -Public mint: TBA",
+  answer : "-White List mint: TBA. -Public mint: TBA.",
   eventKey :"4",
   }, 
   {id:5,
@@ -38,11 +38,11 @@ const faqs = [
   answer : "By joining our Discord, being active, and attending our twitter spaces. We continuously monitor the activity of our members on discord , and  reward our active members. Additionally, you can get on our premint list by registering here ",
   eventKey :"6",
   formLinkTrue:true,
-  formLink: 'https://www.premint.xyz/yeti-yacht-club/',
+  formLink: 'https://www.premint.xyz/yss/',
   }, 
   {id:7,
   question : "How Can I buy a Yeti?",
-  answer : "You can purchase a Yeti either during our minting period, or by purchasing a Yeti on the secondary market",
+  answer : "You can purchase a Yeti either during our minting period, or by purchasing a Yeti on the secondary market.",
   eventKey :"7",
   }, 
   {id:8,
@@ -57,7 +57,7 @@ const faqs = [
   }, 
   {id:10,
   question : "Wen Reveal?",
-  answer : "TBA",
+  answer : "TBA.",
   eventKey :"10",
   }, 
 ];
@@ -81,7 +81,13 @@ function FAQ() {
             {faqs.map(faq => (
               <div key={faq.id} className='faq-item' data-aos="fade-up">
                 <h5 className='faq-title bolder'>{faq.question}</h5>
-                <p>{faq.answer}</p>
+                <p>{faq.answer}
+                { faq.formLinkTrue == true ? (
+                  <a href={faq.formLink}  target="_blank">{faq.formLink}</a>
+                  ) : (
+                   <></> 
+                  )}
+                  </p>
               </div>
             ))}
           </div>

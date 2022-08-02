@@ -20,7 +20,7 @@ function LandingHero() {
                 
                 <div className="justtify-content-center pb-4">
                   <div className="row align-items-center text-align-center" style={{textAlign:'center'}}>
-                    <a href='https://www.premint.xyz/yss/'><button className='register-button montreg' >Register Now</button></a>
+                    <a href='https://www.premint.xyz/yss/' target="_blank"><button className='register-button montreg' >Register Now</button></a>
                   </div>
                 </div>
               </div>              
@@ -35,19 +35,19 @@ function LandingHero() {
             <div className="row medium-row align-items=lg=center">
               <div className="col-12">
                 <div className="d-inline-block m-2" >
-                  <a href="https://www.thecoinrepublic.com/2022/06/30/top-10-nft-collections-you-should-know-about-in-2022/"><img className="brands" src="/images/brands/coinRepublic.svg"></img></a>
+                  <a href="https://www.thecoinrepublic.com/2022/06/30/top-10-nft-collections-you-should-know-about-in-2022/" target="_blank"><img className="brands" src="/images/brands/coinRepublic.svg"></img></a>
                 </div>      
                 <div className="d-inline-block m-2" >
-                  <a href="https://cryptoadventure.com/5-bayc-like-nft-projects-to-watch-out-for-in-2022/"><img className="brands" src="/images/brands/cryptoAdventure.svg"></img></a>
+                  <a href="https://cryptoadventure.com/5-bayc-like-nft-projects-to-watch-out-for-in-2022/" target="_blank"><img className="brands" src="/images/brands/cryptoAdventure.svg"></img></a>
                 </div>      
                 <div className="d-inline-block m-2" >
-                  <a href="https://finance.yahoo.com/news/yeti-yacht-club-project-wishes-202224717.html"><img className="brands" src="/images/brands/yahooFinance.svg"></img></a>
+                  <a href="https://finance.yahoo.com/news/yeti-yacht-club-project-wishes-202224717.html" target="_blank"><img className="brands" src="/images/brands/yahooFinance.svg"></img></a>
                 </div>      
                 <div className="d-inline-block m-2" >
-                  <a href="https://hackernoon.com/the-quest-of-investors-for-the-next-bored-ape-nft-project"><img className="brands" src="/images/brands/hackernoon.svg"></img></a>
+                  <a href="https://hackernoon.com/the-quest-of-investors-for-the-next-bored-ape-nft-project" target="_blank"><img className="brands" src="/images/brands/hackernoon.svg"></img></a>
                 </div>     
                 <div className="d-inline-block m-2" >
-                  <a href="https://techbullion.com/yeti-yacht-club-a-project-betting-on-mega-yachts-and-nfts/"><img className="brands" src="/images/brands/techbullion.svg"></img></a>
+                  <a href="https://techbullion.com/yeti-yacht-club-a-project-betting-on-mega-yachts-and-nfts/" target="_blank"><img className="brands" src="/images/brands/techbullion.svg"></img></a>
                 </div>     
                 {/* <div className="d-inline-block m-2" >
                   <a href=""><img className="brands" src="/images/brands/zcrypto.svg"></img></a>
