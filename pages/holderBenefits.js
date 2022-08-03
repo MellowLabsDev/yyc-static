@@ -40,15 +40,15 @@ export default function HolderBenefits() {
 
         <meta property="og:type" content="website"/>
         <meta property="og:url" content="https://yetis.com/"/>
-        <meta property="og:title" content="YSS | Tokenomics"/>
+        <meta property="og:title" content="YSS | Holder Benefits"/>
         <meta property="og:description" content="Join the Yeti Secret Society today!"/>       
-        <meta property="og:image" content="https://yetis.com/images/metaImg.jpg"/>
+        <meta property="og:image" content="https://yetis.com/images/metaImg.png"/>
 
         <meta property="twitter:card" content="summary_large_image"/>
         <meta property="twitter:url" content="https://yetis.com/"/>
-        <meta property="twitter:title" content="YSS | Tokenomics"/>
+        <meta property="twitter:title" content="YSS | Holder Benefits"/>
         <meta property="twitter:description" content="Join the Yeti Secret Society today!"/>
-        <meta property="twitter:image" content="https://yetis.com/images/metaImg.jpg"/>      
+        <meta property="twitter:image" content="https://yetis.com/images/metaImg.png"/>      
         
         
       </Head>

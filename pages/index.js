@@ -25,13 +25,13 @@ export default function Home() {
         <meta property="og:url" content="https://yetis.com/"/>
         <meta property="og:title" content="YSS | Yeti Secret Society"/>
         <meta property="og:description" content="Join the Yeti Secret Society today!"/>       
-        <meta property="og:image" content="https://yetis.com/images/metaImg.jpg"/>
+        <meta property="og:image" content="https://yetis.com/images/metaImg.png"/>
 
         <meta property="twitter:card" content="summary_large_image"/>
         <meta property="twitter:url" content="https://yetis.com/"/>
         <meta property="twitter:title" content="YSS | Yeti Secret Society"/>
         <meta property="twitter:description" content="Join the Yeti Secret Society today!"/>
-        <meta property="twitter:image" content="https://yetis.com/images/metaImg.jpg"/>      
+        <meta property="twitter:image" content="https://yetis.com/images/metaImg.png"/>      
         
         
       </Head>
