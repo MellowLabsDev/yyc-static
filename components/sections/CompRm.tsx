@@ -18,7 +18,7 @@ function CompRm() {
                 <div className="row align-items-center g-5">
                   <div className="col-lg-4" data-aos="fade-up">
                     <h1 className="display-3 fw-bold lh-1 mb-3 bubblegum">NFT Blue-Chip Comparison Chart</h1>
-                    <p className="lead">How does Yeti Secret Society compare to teh other blue-chip NFT projects in the space? We lead, that's how! No other project is providing the benefits our collectors receive for joining YSS.</p>
+                    <p className="lead">How does Yeti Secret Society compare to the other blue-chip NFT projects in the space? We lead, that's how! No other project is providing the benefits our collectors receive for joining YSS.</p>
                   </div>  
                                   
                   <div className="col-12 col-sm-12 col-lg-8">
