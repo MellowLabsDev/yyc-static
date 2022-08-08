@@ -9,7 +9,7 @@ import { FaTwitter, FaLinkedin } from 'react-icons/fa';
 const teamMembers = [
   {id:0,
     name : "David",
-    title : "CEO",
+    title : "Marketing/Executive Team",
     desc : "",
     twitter : true,
     twitterHref : "https://twitter.com/davidjustin84",

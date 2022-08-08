@@ -14,7 +14,7 @@ function LandingHero() {
             <div className='mt-6'>
                 <div className="justtify-content-center">
                     <div className="row align-items-center justtify-content-center" style={{textAlign:'center'}}>
-                      <h1 className='display-3 fw-bold lh-1 mb-3 bubblegum mt-4'>Pre-Register</h1> 
+                      <h1 className='display-3 fw-bold lh-1 mb-3 bubblegum mt-4'>Guaranteed Mint Access</h1> 
                     </div>
                 </div>
                 
