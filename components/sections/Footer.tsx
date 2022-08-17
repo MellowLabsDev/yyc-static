@@ -13,7 +13,7 @@ function Footer() {
                 <Image className="d-block mx-auto" src="/images/logo.png" alt="" width="250"/>
               </a> */}
               <ul className="nav justify-content-center">
-                <li className="nav-item"><a href="https://twitter.com/OfficialYetiYC" target="_blank" className="nav-link"><FaTwitter size={"2.5rem"}/></a></li>
+                <li className="nav-item"><a href="https://twitter.com/OfficialYetiSS" target="_blank" className="nav-link"><FaTwitter size={"2.5rem"}/></a></li>
                 <li className="nav-item"><a href="https://discord.gg/yAVGGzWNSM" target="_blank" className="nav-link"><FaDiscord size={"2.5rem"}/></a></li>                
                 {/* <li className="nav-item"><a href="https://discord.gg/yAVGGzWNSM" className="nav-link">
                   <svg xmlns="http://www.w3.org/2000/svg" width="2.5rem" height="2.5rem" viewBox="0 0 90 90" fill="#f903a5">
