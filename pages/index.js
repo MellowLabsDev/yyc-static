@@ -36,8 +36,8 @@ export default function Home() {
         
       </Head>
       <LandingHero/>
-      <HolderBenefitsSection/>
       <About/>
+      <HolderBenefitsSection/>
       <CompRm/>
       <Team/>
       {/* <Gallery/> */}
