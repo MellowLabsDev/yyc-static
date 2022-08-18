@@ -48,7 +48,7 @@ function hbSection() {
                             <div className="me-2 text-success-gradiant icon-size"><img src='/images/icons/hbDrinks.svg'></img></div>
                             <div className="">
                                 <h2 className="font-weight-medium bubblegum">Giveaways</h2>
-                                <p className="mt-3">YSS is giving away a number of Rolex watches to the public in 2022. In 2023, only YSS owners will be eligible to win three supercars and custom merch.  </p>
+                                <p className="mt-3">YSS is giving away a number of Rolex watches to the public in 2022. In 2023, only YSS owners will be eligible to win one supercar and custom merch.  </p>
                             </div>
                         </div>
                     </div>
