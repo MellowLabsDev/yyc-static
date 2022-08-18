@@ -35,7 +35,7 @@ function NavComponent() {
                           <Nav.Link href="/">Home</Nav.Link>
                           <Nav.Link href="/roadmap">Roadmap</Nav.Link>
                           <Nav.Link href="/story">Story</Nav.Link>
-                          <Nav.Link href="/holderBenefits">Holder Benefits</Nav.Link>
+                          {/* <Nav.Link href="/holderBenefits">Holder Benefits</Nav.Link> */}
                           <Nav.Link href="/team">Team</Nav.Link>
                           {/* <Nav.Link href="/faqs" passHref>FAQs</Nav.Link> */}
                           <div className='nav-social-cont'>

@@ -13,7 +13,8 @@ function hbSection() {
         <div id='hb-section' className='py-4'>
           <div className="container my-4">
             <div className='row m-auto'>
-                <div className="col-md-6">
+                {/* <div className="col-md-6"> */}
+                <div className="col-md-12">
                     <h1 className="display-3 fw-bold lh-1 mb-3 bubblegum">Holder Benefits</h1>
                     <div className="border-0 mb-4" data-aos="fade-up">
                         <div className="d-flex">
@@ -35,7 +36,7 @@ function hbSection() {
                     </div>
                     <div className="border-0 mb-4" data-aos="fade-up">
                         <div className="d-flex">
-                            <div className="me-2 text-success-gradiant icon-size"><img src='/images/icons/hbChair.svg'></img></div>
+                            <div className="me-2 text-success-gradiant icon-size"><img src='/images/icons/hbGem.svg'></img></div>
                             <div className="">
                                 <h2 className="font-weight-medium bubblegum">Intellectual Property Rights & DAO Membership</h2>
                                 <p className="mt-3">Yeti owners have full intellectual property rights of their individual NFTs, and be eligible for membership of the Yeti DAO – further information on protocols will be revealed.</p>
