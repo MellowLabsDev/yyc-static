@@ -30,7 +30,7 @@ function CompRm() {
                 </div> */}
               <div className="col py-5" data-aos="fade-up">
                 <h1 className="display-3 fw-bold lh-1 mb-3 bubblegum">Roadmap</h1>
-                <p className="lead">We’re committed to the Yeti community and our goal is to depict the overall idea of our current plans and a feasible outlook of the future. Together we grow.</p>
+                <p className="lead text-justify">We’re committed to the Yeti community and our goal is to depict the overall idea of our current plans and a feasible outlook of the future. Together we grow.</p>
               </div>  
               <img className='roadmap-chart rm-d' src='/images/charts/roadmapHor.png' alt='roadmap'></img>
               <img className='roadmap-chart rm-m' src='/images/charts/roadmapVert.png' alt='roadmapMobile'></img>

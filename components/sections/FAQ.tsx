@@ -76,7 +76,7 @@ function FAQ() {
             {faqs.map(faq => (
               <div key={faq.id} className='faq-item' data-aos="fade-up">
                 <h5 className='faq-title bolder'>{faq.question}</h5>
-                <p>{faq.answer}
+                <p className='text-justify' >{faq.answer}
                 { faq.formLinkTrue == true ? (
                   <a href={faq.formLink}  target="_blank">{faq.formLink}</a>
                   ) : (

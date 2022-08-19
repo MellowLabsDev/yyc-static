@@ -21,7 +21,7 @@ function hbSection() {
                             <div className="me-2 text-success-gradiant icon-size"><img src='/images/icons/hbDiamond.svg'></img></div>
                             <div className="">
                                 <h2 className="font-weight-medium bubblegum">Networking Redefined </h2>
-                                <p className="mt-3">The Yeti Secret Society allows you to brush shoulders with an elite community at members-only events. Our first event will be the end of the year in Las Vegas, followed by a massive party on a private island in Italy, and an all-inclusive cruise on the world's largest sailing vessel to Monaco.</p>
+                                <p className="mt-3 text-justify">The Yeti Secret Society allows you to brush shoulders with an elite community at members-only events. Our first event will be the end of the year in Las Vegas, followed by a massive party on a private island in Italy, and an all-inclusive cruise on the world's largest sailing vessel to Monaco.</p>
                             </div>
                         </div>
                     </div>
@@ -30,7 +30,7 @@ function hbSection() {
                             <div className="me-2 text-success-gradiant icon-size"><img src='/images/icons/hbChair.svg'></img></div>
                             <div className="">
                                 <h2 className="font-weight-medium bubblegum">The Yeti Lounge</h2>
-                                <p className="mt-3">The crown jewel of YSS is a physical space called “The Lounge,” available to all holders throughout the year – only Yetis are given access to this secret location.</p>
+                                <p className="mt-3 text-justify">The crown jewel of YSS is a physical space called “The Lounge,” available to all holders throughout the year – only Yetis are given access to this secret location.</p>
                             </div>
                         </div>
                     </div>
@@ -39,7 +39,7 @@ function hbSection() {
                             <div className="me-2 text-success-gradiant icon-size"><img src='/images/icons/hbGem.svg'></img></div>
                             <div className="">
                                 <h2 className="font-weight-medium bubblegum">Intellectual Property Rights & DAO Membership</h2>
-                                <p className="mt-3">Yeti owners have full intellectual property rights of their individual NFTs, and be eligible for membership of the Yeti DAO – further information on protocols will be revealed.</p>
+                                <p className="mt-3 text-justify">Yeti owners have full intellectual property rights of their individual NFTs, and be eligible for membership of the Yeti DAO – further information on protocols will be revealed.</p>
                             </div>
                         </div>
                     </div>
@@ -48,7 +48,7 @@ function hbSection() {
                             <div className="me-2 text-success-gradiant icon-size"><img src='/images/icons/hbDrinks.svg'></img></div>
                             <div className="">
                                 <h2 className="font-weight-medium bubblegum">Giveaways</h2>
-                                <p className="mt-3">YSS is giving away a number of Rolex watches to the public in 2022. In 2023, only YSS owners will be eligible to win one supercar and custom merch.  </p>
+                                <p className="mt-3 text-justify">YSS is giving away a number of Rolex watches to the public in 2022. In 2023, only YSS owners will be eligible to win one supercar and custom merch.  </p>
                             </div>
                         </div>
                     </div>
@@ -57,7 +57,7 @@ function hbSection() {
                             <div className="me-2 text-success-gradiant icon-size"><img src='/images/icons/hbPalm.svg'></img></div>
                             <div className="">
                                 <h2 className="font-weight-medium bubblegum">MMO Game and Metaverse</h2>
-                                <p className="mt-3">Along with our annual member-only events, YSS is bringing its membership to the virtual world. We’ve partnered with a metaverse and gaming studio to create a Massive Multiplayer Online mobile game and metaverse for the Yetis.</p>
+                                <p className="mt-3 text-justify">Along with our annual member-only events, YSS is bringing its membership to the virtual world. We’ve partnered with a metaverse and gaming studio to create a Massive Multiplayer Online mobile game and metaverse for the Yetis.</p>
                             </div>
                         </div>
                     </div>

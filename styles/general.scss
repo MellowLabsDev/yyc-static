@@ -70,6 +70,10 @@ a, a:link, a:visited {
   }
 }
 
+.text-justify{
+  text-align: justify!important;
+}
+
 strong {
   @apply font-semibold;
 }
@@ -359,7 +363,7 @@ label {
 }
 
 .team {
-  background: linear-gradient(#392178, #6a32dc,#392178);
+  background: linear-gradient(#392178, #6a32dc);
   background-position: cover;
 }
 
@@ -375,7 +379,7 @@ label {
 }
 
 #faq {  
-  background-image: url("/images/footerImg.png"), linear-gradient(#392178, #6a32dc, #392178);
+  background-image: url("/images/footerImg.png"), linear-gradient( #6a32dc, #392178);
   font-family: montReg;
   color: white;
   // background-image: url("/images/footerOverlay.png");
@@ -1125,7 +1129,7 @@ button{
 
   #hb-section{
     // background-image: linear-gradient(#252525, #392178);
-    background: linear-gradient(#392178, #6a32dc);
+    background: linear-gradient(#392178, #392178);
     margin: auto;
   }
 
@@ -1135,7 +1139,7 @@ button{
   }
 
   #CompRm {
-    background: linear-gradient(#6a32dc, #392178);
+    background: linear-gradient(#392178, #392178);
   }
 
   .roadmap-chart {
