@@ -58,35 +58,38 @@ export default function Story() {
             <div className="col">
               <h1 className="display-3 fw-bold lh-1 mb-3 bubblegum mt-4">Story</h1>
               <p className="lead text-justify">
-                Yetis were once nomadic creatures that thrived in the remote mountains of the Himalayas. They lead simple lives jumping over rocks and playing with sticks to kill time. 
+              Yetis were once nomadic creatures that thrived in the remote mountains of the Himalayas. They led simple lives, jumping over rocks and playing in the snow to kill time.              
               <br/>
               </p>
               <p className="lead text-justify">
-                Little did they know their lives would  soon change forever. As Civilization encroached closer and closer to the Yeti’s domain, they feared what they saw as small hairless beings. For a long time they avoided humans, and humans avoided them. 
+              Little did they know their lives would soon change forever. As Civilization encroached closer and closer to the Yeti’s domain, they feared what they saw as small hairless beings. For a long time, they avoided humans, and humans avoided Yetis.              
               <br/>
               </p>
               <p className="lead text-justify">
-                Finally a single curious yeti, named Bongo, would wander into town one night. Lead by his nose, he wondered into a fine tourist restaurant on the base of a mountain. Bongo opened the fridge and began tasting all of the foods they had stored. At the first bite his taste buds ignited into a dopamine rush that would forever change the course of yeti kind.
+              Finally, a single curious Yeti, named Bongo, wandered into a nearby town one night. Led by his nose, he snuck into a fine tourist restaurant at the base of a mountain. Bongo opened the fridge and began tasting all these delicious drinks and foods. At the first bite, his taste buds ignited into a dopamine rush that would forever change the course of Yeti kind.
               <br/>
               </p>
               <p className="lead text-justify">
-                As word spread in the Yeti village, more and more yetis would wander into town to try what was described to them as food much better than the sticks and bugs they were used to eating.
+              As word of these new experiences spread in the Yeti society, more and more Yetis would wander into town to try a taste of the finer life.
               <br/>
               </p>
               <p className="lead text-justify">
-                Slowly humans accepted the Yetis, and as the western world found out, the yetis would come to be treated as celebrities. Large crowds would gather wherever they went. They were hired for commercials, acting gigs, product placements, and private parties. They became symbols of the ultra elite, the rich and famous. Everyone wanted to be seen with a Yeti. 
+              Slowly humans accepted the Yetis, and as the Western world found out, the Yetis would come to be treated as celebrities. Large crowds would gather wherever they went. They were hired for commercials, acting gigs, product placements, and private parties. They became symbols of the ultra-elite, the rich and famous. Everyone wanted to be seen with a Yeti.
               <br/>
               </p>
               <p className="lead text-justify">
-                Elite Clubs everywhere would invite the Yetis, in the hopes they would come. They were treated to the World’s best. Yetis became addicted to the high life. They now lived for fine wines, 5 star food, and Cuban cigars.
+              Elite Clubs everywhere would invite the Yetis, in the hopes they would come. They were treated to the world’s best and quickly became addicted to the high life. They now lived for fine wines, the Michelin Star dining, and Cuban cigars – they indulged.
               <br/>
               </p>
               <p className="lead text-justify">
-                After being in the mountains so long, the Yetis realized they loved the water more than anything else. They were tired of being chased by fans and wanted to get away. For this reason the Yetis decided they would found their own club. One day they decided they wanted a club so exclusive that only other celebrities, free thinkers and the rich and famous could join them. They wanted to live their life out in pure bliss and relaxation. They wanted nothing less than private islands, mega yachts and their own permanent club venue.
+              However, Yetis will be Yetis, and soon enough they got tired of the superficial and paparazzi filled life of humans. They’d seen them burn through this world and needed to make a change. And even though the Yetis wanted to live their lives out in comfort and luxury, they wanted to do so with a purpose – to protect humanity from its self-destructive tendencies, to protect our planet, and to protect the Yeti way of life.
               <br/>
               </p>
               <p className="lead text-justify">
-                It was on this very day that the Yeti Secret Society was born.
+              On February 22, 2022, a counsel of Yeti Elders was called. They vowed to build a secret Lodge where Yetis and humans could congregate in peace. Only the best of humanity would be invited – scientists, free thinkers, innovators, business leaders and socialites. By bringing these groups together, in secret and with a purpose, Yetis could really make an impact.
+              </p>
+              <p className="lead text-justify">
+              It was on this very day that the Yeti Secret Society was born.
               </p>
 
             </div>
