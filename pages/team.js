@@ -46,6 +46,7 @@ const teamMembers = [
   linkedin : true,
   linkedinHref : "https://www.linkedin.com/in/nallenweb3/",
   img : "/images/team/noah.png",
+  mellow : true,
   }, 
   {id:4,
   name : "Arvin",
@@ -66,6 +67,7 @@ const teamMembers = [
   linkedin : false,
   linkedinHref : "https://www.linkedin.com/in/alecb/",
   img : "/images/team/alec.png",
+  mellow : true,
   }, 
   {id:6,
   name : "Meagan",
@@ -136,15 +138,22 @@ export default function Team() {
                     {/* <br></br><br></br>
                     {member.desc} */}
                   </Card.Text>
-                  <ul className="nav col-md-4 justify-content-center list-unstyled d-flex" style={{margin:'auto'}}>
+                  <ul className="nav col-md-12 justify-content-center list-unstyled d-flex" style={{margin:'auto'}}>
                   { member.twitter == true ? (
-                  <li><a href={member.twitterHref}><FaTwitter  size={"1.5rem"} color={"#f903a5"} style={{marginRight:'1rem'}} /></a></li>
+                  <li><a href={member.twitterHref}><FaTwitter  size={"1.5rem"} color={"#f903a5"}/></a></li>
                   ) : (
                     
                   <li style={{width:0}}></li> 
                   ) }
                   { member.linkedin == true ? (
-                  <li><a href={member.linkedinHref}><FaLinkedin  size={"1.5rem"} color={"#f903a5"} /></a></li>
+                  <li><a href={member.linkedinHref}><FaLinkedin  size={"1.5rem"} color={"#f903a5"} style={{marginLeft:'1rem'}} /></a></li>
+                  ) : (
+                    
+                  <li style={{width:0}}></li> 
+                  ) }
+                  
+                  { member.mellow == true ? (
+                  <li><a href="https://mellowlabs.dev/"><img height="24" width="24" style={{marginLeft:'1rem'}} src='/images/icons/mellow.svg'></img></a></li>
                   ) : (
                     
                   <li style={{width:0}}></li> 
