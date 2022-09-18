@@ -5,7 +5,7 @@ import AOS from 'aos';
 const faqs = [
   {id:0,
   question : "What is Yeti Secret Society?",
-  answer : "YSS is a collection of 10,000 uniquely generated NFTs on the Ethereum blockchain, each Yeti represents a membership card to our secret society.",
+  answer : "YSS is a collection of 15,000 uniquely generated NFTs on the Ethereum blockchain, each Yeti represents a membership card to our secret society.",
   eventKey :"0",
   }, 
   {id:1,
