@@ -20,7 +20,7 @@ function LandingHero() {
                 
                 <div className="justtify-content-center pb-4">
                   <div className="row align-items-center text-align-center" style={{textAlign:'center'}}>
-                    <a href='https://www.premint.xyz/yss/' target="_blank"><button className='register-button montreg' >Register Now</button></a>
+                    <a href='https://mint.yetis.com/' target="_blank"><button className='register-button montreg' >Mint</button></a>
                   </div>
                 </div>
               </div>              
