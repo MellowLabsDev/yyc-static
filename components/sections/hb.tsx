@@ -52,7 +52,7 @@ function hbSection() {
                             </div>
                         </div>
                     </div>
-                    <div className="border-0 mb-4" data-aos="fade-up">
+                    {/* <div className="border-0 mb-4" data-aos="fade-up">
                         <div className="d-flex">
                             <div className="me-2 text-success-gradiant icon-size"><img src='/images/icons/hbPalm.svg'></img></div>
                             <div className="">
@@ -60,7 +60,7 @@ function hbSection() {
                                 <p className="mt-3 text-justify">Along with our annual member-only events, YSS is bringing its membership to the virtual world. We’ve partnered with a metaverse and gaming studio to create a Massive Multiplayer Online mobile game and metaverse for the Yetis.</p>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 {/* <div className='col text-center'>
                     <Zoom>
